@@ -1,0 +1,90 @@
+*{
+    font-family: kumbh sans;
+}
+.first{
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+a, p{
+    color: hsl(0, 0%, 43%);
+}
+.fall{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.images{
+    margin-left: 5rem;
+}
+.card-section{
+    margin-left: 6rem;
+}
+.company{
+    color:hsl(26, 100%, 55%) ;
+    font-weight: 600;
+}
+.para{
+    width: 480px;
+}
+.first-img-div{
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.first-img-div img{
+    opacity: 0.5;
+}
+.amount-off span{
+   font-weight: 700; 
+}
+.add-to-card{
+    display: flex;
+    padding-inline: 5rem;
+    position: absolute;
+    align-items: center;
+    transform: translate(12rem, -3.5rem);
+    border-radius: 10px;
+}
+.pop-up1{
+    display: none;
+    position: absolute;
+    transform: translate(10px, -8px);
+    padding: 1px 9px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: hsl(26, 100%, 55%);
+}
+.pop-up2{
+    width: 370px;
+    display: none;
+    min-height: 250px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(177, 168, 168);
+    transform: translate(-13rem, 10rem);
+}
+.checkout{
+    padding: 15px 130px;
+    cursor: pointer;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    transform: translate(20px, 10px);
+}
+
+/* togelling classes */
+.block{
+    display: block;
+}
+nav a{
+    transform: translateY(17px);
+}
+nav a:hover{
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+}
+
+.profile-circle{
+    border: 2px solid hsl(26, 100%, 55%);
+}
