@@ -18,7 +18,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container w-full h-screen xl:px-[10rem] mx-auto">
+    <div class="container w-full h-screen xl:px-[10rem] mx-auto absolute">
       <!-- nav bar -->
       <nav
         class="flex justiify-between gap-3 w-full py-5 px-4 items-center ld ld-blur-in lg:border-b-2"
@@ -32,41 +32,6 @@
             >
               menu
             </span>
-          </div>
-          <div
-            class="links flex flex-col gap-5 font-bold text-gray-700 bg-white h-screen w-[13rem] absolute top-0 left-0 pl-5 hidden"
-          >
-            <span
-              class="material-symbols-outlined my-5 text-xl font-bold cursor-pointer"
-              onclick="menuclose()"
-            >
-              close
-            </span>
-            <a
-              href="#"
-              class="hover:text-black transition ease-in-out w-full h-full"
-              >Collection</a
-            >
-            <a
-              href="#"
-              class="hover:text-black transition ease-in-out w-full h-full"
-              >Men</a
-            >
-            <a
-              href="#"
-              class="hover:text-black transition ease-in-out w-full h-full"
-              >Women</a
-            >
-            <a
-              href="#"
-              class="hover:text-black transition ease-in-out w-full h-full"
-              >About</a
-            >
-            <a
-              href="#"
-              class="hover:text-black transition ease-in-out w-full h-full"
-              >Contact</a
-            >
           </div>
         </div>
         <!-- logo -->
@@ -219,7 +184,42 @@
                   <button class="bg-orange-500 w-full h-12 rounded-lg text-white font-bold active:scale-75 transition checkout">Checkout</button>
                 </div>
               </div>
-       
+       <!-- toggle menu -->
+         <div
+            class="links flex flex-col gap-5 font-bold text-gray-700 bg-white h-screen w-[13rem] absolute top-0 left-0 z-10 pl-5 ld ld-slide-ltr-in hidden menutoggle"
+          >
+            <span
+              class="material-symbols-outlined my-5 text-xl font-bold cursor-pointer"
+              onclick="menuclose()"
+            >
+              close
+            </span>
+            <a
+              href="#"
+              class="hover:text-black transition ease-in-out w-full"
+              >Collection</a
+            >
+            <a
+              href="#"
+              class="hover:text-black transition ease-in-out w-full"
+              >Men</a
+            >
+            <a
+              href="#"
+              class="hover:text-black transition ease-in-out w-full"
+              >Women</a
+            >
+            <a
+              href="#"
+              class="hover:text-black transition ease-in-out w-full"
+              >About</a
+            >
+            <a
+              href="#"
+              class="hover:text-black transition ease-in-out w-full"
+              >Contact</a
+            >
+          </div>
       </section>
     </div>
     <div class="hide popup">

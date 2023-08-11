@@ -12,6 +12,8 @@ const increment = document.querySelector(".increment");
 const decrement = document.querySelector(".decrement");
 const card = document.querySelector(".card");
 const price = document.querySelector(".price");
+const menu = document.querySelector(".menutoggle");
+
 
 showpop.forEach((items) => {
   items.addEventListener("click", (e) => {
@@ -83,5 +85,14 @@ const Deleteitem = () => {
 
 
 
-// image sliders
-const Main = document.querySelector(".main");
+// meanu toggler
+const menuopen = () => {
+  if (menu.classList.contains("hidden")) { 
+    menu.classList.remove("hidden");
+  }
+}
+const menuclose = () => { 
+  if (!menu.classList.contains("hidden")) {
+    menu.classList.add("hidden");
+  }
+}
