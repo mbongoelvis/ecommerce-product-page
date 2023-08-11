@@ -74,6 +74,8 @@ decrement.addEventListener("click", (e) => {
 const Deleteitem = () => {
   items.style.display = "none";
   chekout.style.display = "none";
+  priceval.textContent = 0;
+  priceval2.textContent = 0
   if (emptyitem.classList.contains("hide")) {
     emptyitem.classList.remove("hide");
   }
